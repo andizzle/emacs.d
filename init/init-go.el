@@ -3,13 +3,12 @@
 (quelpa 'go-mode)
 
 (setq brew_path (getenv "HOMEBREWPATH"))
-(setq go_version (getenv "GOVERSION"))
+(setq go_root (getenv "GOROOT"))
 
 ;; calc path to go-mode-load
 (setq go_emacs_file
  (concat
-   (file-name-as-directory brew_path) "Cellar/go/"
-   (file-name-as-directory go_version) "libexec/misc/emacs"
+   (file-name-as-directory go_root) "/misc/emacs"
   )
 )
 

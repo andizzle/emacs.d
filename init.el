@@ -5,10 +5,10 @@
 
 (mapc 'require
       '(
-	;;; Always bootstrap first
+        ;;; Always bootstrap first
         init-bootstrap
 
-	;;; These all use the (quelpa) form.
+        ;;; These all use the (quelpa) form.
         init-ack
         init-anzu
         init-appearance
@@ -37,7 +37,7 @@
         init-yaml
         init-fic
         init-sql-indent
-		 ))
+         ))
 (require 'server)
 (unless (server-running-p)
   (server-start))
