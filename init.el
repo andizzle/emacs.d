@@ -37,6 +37,7 @@
         init-yaml
         init-fic
         init-sql-indent
+        init-cucumber
          ))
 (require 'server)
 (unless (server-running-p)
