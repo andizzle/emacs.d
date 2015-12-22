@@ -38,6 +38,7 @@
         init-fic
         init-sql-indent
         init-cucumber
+        init-lua
          ))
 (require 'server)
 (unless (server-running-p)
