@@ -1,9 +1,10 @@
 (provide 'init-flycheck)
 
 (quelpa '(let-alist 
-      :url "http://git.savannah.gnu.org/cgit/emacs/elpa.git/plain/packages/let-alist/let-alist.el"
+      :url "https://elpa.gnu.org/packages/let-alist-1.0.4.el"
       :fetcher url 
       :version original))
+
 (quelpa 'flycheck)
 (add-hook 'sh-mode-hook 'flycheck-mode)
 (add-hook 'json-mode-hook 'flycheck-mode)

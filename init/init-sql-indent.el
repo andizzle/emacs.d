@@ -1,6 +1,6 @@
 (provide 'init-sql-indent)
 
-(quelpa '(sql-indent :url "http://www.emacswiki.org/emacs/download/sql-indent.el" :fetcher url))
+(quelpa '(sql-indent :url "https://raw.githubusercontent.com/bsvingen/sql-indent/master/sql-indent.el" :fetcher url))
 
 (require 'sql-indent)
 (defun sql-indent-region (beg end)

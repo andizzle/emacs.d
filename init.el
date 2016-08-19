@@ -32,13 +32,14 @@
         init-ruby
         init-session
         init-settings
-        ;;; init-snippets
+        init-snippets
         init-web
         init-yaml
         init-fic
         init-sql-indent
         init-cucumber
         init-lua
+        init-terraform
          ))
 (require 'server)
 (unless (server-running-p)
