@@ -1,8 +1,8 @@
 (provide 'init-flycheck)
 
-(quelpa '(let-alist 
+(quelpa '(let-alist
       :url "https://elpa.gnu.org/packages/let-alist-1.0.4.el"
-      :fetcher url 
+      :fetcher url
       :version original))
 
 (quelpa 'flycheck)
@@ -16,5 +16,6 @@
 (add-hook 'enh-ruby-mode-hook 'flycheck-mode)
 (add-hook 'go-mode-hook 'flycheck-mode)
 (add-hook 'php-mode-hook 'flycheck-mode)
+(add-hook 'yaml-mode-hook 'flycheck-mode)
 (setq-default flycheck-disabled-checkers '(emacs-lisp-checkdoc))
 (setq flycheck-indication-mode nil)
