@@ -1,5 +1,8 @@
 (provide 'init-go)
 
+(quelpa '(go-dlv :url "https://raw.githubusercontent.com/benma/go-dlv.el/master/go-dlv.el" :fetcher url))
+
+(require 'go-dlv)
 (quelpa 'go-mode)
 
 (setq brew_path (getenv "HOMEBREWPATH"))
