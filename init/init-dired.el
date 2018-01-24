@@ -1,6 +1,6 @@
 (provide 'init-dired)
 
-(quelpa 'dired+)
+(quelpa '(dired+ :url "https://raw.githubusercontent.com/emacsmirror/dired-plus/master/dired%2B.el" :fetcher url))
 (require 'dired+)
 
 (setq ls-lisp-use-insert-directory-program t)
