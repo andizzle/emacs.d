@@ -1,7 +1,7 @@
 (provide 'init-flycheck)
 
 (quelpa '(let-alist
-      :url "https://elpa.gnu.org/packages/let-alist-1.0.4.el"
+      :url "https://elpa.gnu.org/packages/let-alist-1.0.5.el"
       :fetcher url
       :version original))
 
