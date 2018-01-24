@@ -19,7 +19,7 @@
 (if go_emacs_file (require go_emacs_file))
 (quelpa 'go-errcheck)
 
-(eval-after-load "go-mode"
+(eval-after-load "flycheck"
   '(progn
 
      (add-hook 'before-save-hook #'gofmt-before-save)
