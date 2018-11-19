@@ -47,6 +47,7 @@
         init-cucumber
         init-lua
         init-terraform
+        init-octave
          ))
 (require 'server)
 (unless (server-running-p)
